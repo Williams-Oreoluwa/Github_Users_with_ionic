@@ -1,0 +1,248 @@
+ion-icon.git-logo {
+  font-size: 3rem;
+}
+form {
+  display: grid;
+  place-items: left;
+  gap: 0.8rem;
+}
+
+.nothing {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+ion-image {
+  width: 5rem;
+  height: 5rem;
+}
+
+.avatar-image {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card-details {
+  display: grid;
+  place-items: center;
+}
+
+.users-data {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.2rem;
+  place-content: center;
+}
+.profile-btn {
+  position: relative;
+  top: 30%;
+}
+.ion-background-color-light {
+  background-color: rgb(255, 255, 255);
+}
+.ion-background-color-dark {
+  background-color: rgb(28, 28, 28);
+}
+ion-footer ion-toolbar.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+.user-image {
+  width: 100%;
+  height: 60vh;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-profile {
+  position: absolute;
+  top: -5rem;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem;
+  gap: 2rem;
+}
+.user-media {
+  display: grid;
+  place-items: left;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.7rem;
+}
+
+.followers h2,
+.following h2,
+.repos h2,
+.gist h2 {
+  display: grid;
+
+  font-size: 1.6rem;
+}
+
+.biography {
+  display: grid;
+  place-items: center;
+}
+.biography p {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 700px) {
+  .section {
+    grid-template-columns: none;
+  }
+  .profile-btn {
+    position: relative;
+    top: 25%;
+    right: -1.8rem;
+  }
+  .user-profile {
+    top: 1rem;
+    flex-direction: column;
+  }
+  .user-names {
+    display: grid;
+    place-items: left;
+  }
+  .followers h2,
+  .following h2,
+  .repos h2,
+  .gist h2 {
+    display: grid;
+
+    font-size: 1.5rem;
+  }
+  .user-image {
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .section {
+    grid-template-columns: none;
+  }
+  .profile-btn {
+    position: relative;
+    top: 25%;
+    right: 0rem;
+  }
+  .user-profile {
+    grid-template-columns: none;
+    place-items: center;
+  }
+  .followers h2,
+  .following h2,
+  .repos h2,
+  .gist h2 {
+    display: grid;
+
+    font-size: 1.3rem;
+  }
+  
+}
+
+/* ion-router-link{
+    font-size: ;
+}
+ion-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+.data {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.4rem;
+}
+.register-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  place-items: center;
+}
+
+ion-input.text-input {
+  width: 100%;
+  height: 1%;
+  background: white;
+  border: none;
+  border-radius: 0.6rem;
+}
+
+.git-logo-header {
+  font-size: 2rem;
+  padding-left: 0.8rem;
+}
+.header {
+  display: flex;
+}
+.register-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+form.text {
+  text-align: left;
+}
+
+ion-card-content {
+  background: rgb(247, 248, 248);
+}
+
+/* .card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+} */
+/* .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+.footer ul {
+  display: flex;
+  gap: 0.6rem;
+}
+.footer ul li {
+  list-style: none;
+}
+.footer ul li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.contact-github {
+  color: rgb(92, 92, 92);
+}
+
+.footer ul li a:hover {
+  color: rgb(95, 157, 245);
+  text-decoration: underline;
+}

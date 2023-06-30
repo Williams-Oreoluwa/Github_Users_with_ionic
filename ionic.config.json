@@ -1,0 +1,7 @@
+{
+  "name": "Github_Users_with_ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
