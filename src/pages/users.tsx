@@ -215,7 +215,7 @@ const User: React.FC = () => {
                             <h2>{user.followers}</h2>
                           </div>
                           <div className="following">
-                            <h2>Followers</h2>
+                            <h2>Follow</h2>
                             <h2>{user.following}</h2>
                           </div>
                           <div className="repos">
