@@ -142,6 +142,8 @@ const Home: React.FC = () => {
       </>
     );
   }
+  
+
 
   return (
     <>
@@ -173,6 +175,7 @@ const Home: React.FC = () => {
                 </>
               );
             })}
+
             <IonList>
               <IonItem>
                 <IonIcon

@@ -58,7 +58,6 @@ const Home: React.FC = () => {
   const [users, setUsers] = useState<any[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [isLoading, isLoaded] = useIonLoading();
-
   const [light, setLight] = useState(true);
 
   const data = "https://randomuser.me/api?results=10";
